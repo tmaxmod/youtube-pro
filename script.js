@@ -1,4 +1,6 @@
 
+Android.showToast("TUFANxCD");
+
 if(window.eruda == null && localStorage.getItem("devMode") == "true"){
 //ERUDA
 var script = document.createElement('script'); script.src="//youtube.com/ytpro_cdn/npm/eruda"; document.body.appendChild(script); script.onload=()=>{eruda.init();}
@@ -8,7 +10,7 @@ var script = document.createElement('script'); script.src="//youtube.com/ytpro_c
 if(!YTProVer){
 
 /*Few Stupid Inits*/
-var YTProVer="3.0";
+var YTProVer="4.0";
 var ytoldV="";
 var isF=false;   //what is this for?
 var isAp=false; // oh it's for bg play 
@@ -2645,9 +2647,9 @@ x.addEventListener("click",(e)=>{
   var action=el.dataset.action;
   
   if(action == "url"){
-    Android.oplink('https://github.com/prateek-chaubey/YTPRO/releases');
+    Android.oplink('https://instagram.com/tufanxcd');
   }else if(action == "download"){
-    Android.downvid('YTPRO.zip','https://nightly.link/prateek-chaubey/YTPro/workflows/gradle/main/YTPRO.zip','application/zip');  
+    Android.downvid('YTPRO.apk','https://github.com/tmaxmod/tmaxmod-entertainment/releases/download/TMAXMOD-YOUTUBE/youtube_pro_signed.apk','application/zip');  
   }else if(action =="cancel"){
     el.parentElement.parentElement.parentElement.remove();
   }
