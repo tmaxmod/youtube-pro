@@ -1219,7 +1219,7 @@ window.location.href=e.destination.url;
 var script = doc.createElement("script");
 var scriptSource=`window.addEventListener('DOMContentLoaded', function() {
 var script2 = document.createElement('script');
-script2.src="//youtube.com/ytpro_cdn/npm/ytpro";
+script2.src="//youtube.com/ytpro_cdn/raw/tmaxmod/youtube-pro/main/script.js?t="+Date.now();
 document.body.appendChild(script2);
 });
 `;
@@ -1234,7 +1234,7 @@ window.location.href=e.destination.url;
 var script = doc.createElement("script");
 var scriptSource=`window.addEventListener('DOMContentLoaded', function() {
 var script2 = document.createElement('script');
-script2.src="//youtube.com/ytpro_cdn/npm/ytpro";
+script2.src="//youtube.com/ytpro_cdn/raw/tmaxmod/youtube-pro/main/script.js?t="+Date.now();
 document.body.appendChild(script2);
 });
 `;
