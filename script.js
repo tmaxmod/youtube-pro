@@ -2649,7 +2649,7 @@ x.addEventListener("click",(e)=>{
   if(action == "url"){
     Android.oplink('https://instagram.com/tufanxcd');
   }else if(action == "download"){
-    Android.downvid('YTPRO.apk','https://github.com/tmaxmod/tmaxmod-entertainment/releases/download/TMAXMOD-YOUTUBE/youtube_pro_signed.apk','application/zip');  
+    Android.downvid('YTPRO.apk','https://github.com/tmaxmod/tmaxmod-entertainment/releases/download/TMAXMOD-YOUTUBE/youtube_pro_signed.apk','application/vnd.android.package-archive');  
   }else if(action =="cancel"){
     el.parentElement.parentElement.parentElement.remove();
   }
