@@ -926,9 +926,9 @@ updateModel();
 Android.showToast("Your app is up to date");
 }
 
-fetch('https://youtube.com/ytpro_cdn/npm/ytpro', {cache: 'reload'});
-fetch('https://youtube.com/ytpro_cdn/npm/ytpro/bgplay.js', {cache: 'reload'});
-fetch('https://youtube.com/ytpro_cdn/npm/ytpro/innertube.js', {cache: 'reload'});
+//fetch('https://youtube.com/ytpro_cdn/npm/ytpro', {cache: 'reload'});
+//fetch('https://youtube.com/ytpro_cdn/npm/ytpro/bgplay.js', {cache: 'reload'});
+//fetch('https://youtube.com/ytpro_cdn/npm/ytpro/innertube.js', {cache: 'reload'});
 }
 
 
